@@ -46,6 +46,7 @@ button {
 .box.active {
   height: 7rem;
   background-color: burlywood;
+  transition: all 0.6s ease;
 }
 .box .ans {
   display: none;
