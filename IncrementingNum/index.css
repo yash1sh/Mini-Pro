@@ -1,0 +1,35 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: rgb(125, 0, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+}
+.conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fab,
+.cout,
+span {
+  margin: 10px 50px;
+  color: white;
+}
+
+.cout {
+  font-size: 40px;
+}
