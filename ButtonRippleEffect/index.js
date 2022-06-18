@@ -14,7 +14,6 @@ buttons.forEach((button) => {
     const posx = x - buttonleft;
     const posy = y - buttonTop;
     //Here this will provide the positon where the user have clicked according to the given location from the button area
-    console.log(posx, posy);
     const span = document.createElement("span");
     span.classList.add("circle");
     span.style.top = posy + "px";
