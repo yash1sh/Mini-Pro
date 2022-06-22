@@ -9,3 +9,4 @@ labels.forEach((label) => {
     )
     .join("");
 });
+Console.log(labels);
