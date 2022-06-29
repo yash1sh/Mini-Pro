@@ -15,3 +15,4 @@ couts.forEach((cout) => {
   };
   updateCounter();
 });
+Console.log()
